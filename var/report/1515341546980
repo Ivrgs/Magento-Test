@@ -1,0 +1,20 @@
+a:5:{i:0;s:104:"Invalid method Mage_Core_Block_Text_List::addItem(Array
+(
+    [0] => skin_js
+    [1] => js/popper.js
+)
+)";i:1;s:2343:"#0 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Model\Layout.php(348): Varien_Object->__call('addItem', Array)
+#1 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Model\Layout.php(214): Mage_Core_Model_Layout->_generateAction(Object(Mage_Core_Model_Layout_Element), Object(Mage_Core_Model_Layout_Element))
+#2 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#3 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Model\Layout.php(210): Mage_Core_Model_Layout->generateBlocks(Object(Mage_Core_Model_Layout_Element))
+#4 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Controller\Varien\Action.php(344): Mage_Core_Model_Layout->generateBlocks()
+#5 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Cms\Helper\Page.php(113): Mage_Core_Controller_Varien_Action->generateLayoutBlocks()
+#6 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Cms\Helper\Page.php(52): Mage_Cms_Helper_Page->_renderPage(Object(Mage_Cms_IndexController), 'home')
+#7 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Cms\controllers\IndexController.php(45): Mage_Cms_Helper_Page->renderPage(Object(Mage_Cms_IndexController), 'home')
+#8 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Cms_IndexController->indexAction()
+#9 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('index')
+#10 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#11 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#12 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#13 C:\Users\Ivrgs\xampp\htdocs\magento-mirror-magento-1.9\index.php(83): Mage::run('', 'store')
+#14 {main}";s:3:"url";s:38:"/magento-mirror-magento-1.9/index.php/";s:11:"script_name";s:37:"/magento-mirror-magento-1.9/index.php";s:4:"skin";s:7:"default";}

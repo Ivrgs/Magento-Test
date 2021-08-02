@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<layout version="0.1.0">
+<!-- BOF added by Atwix --> 
+    <checkout_cart_index> 
+        <reference name="header"> 
+            <block type="page/header" name="header">
+                <action method="setTemplate"><template>checkout/cart/header/header.phtml</template></action> 
+            </block>
+        </reference>
+    </checkout_cart_index> 
+<!-- EOF added by Atwix --> 
+</layout>

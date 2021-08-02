@@ -1,0 +1,103 @@
+<div class="widget widget-new-products">
+    <div class="widget-products">
+                                        <ul class="products-grid products-grid--max-5-col-widget"> <div class="row">
+                       
+                 
+                      <div class="col-md-4">
+                    <a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/animu.html?___SID=U" title="Animu" class="product-image">
+                        <img src="http://127.0.0.1/magento-mirror-magento-1.9/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" alt="Animu" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-name"><a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/animu.html?___SID=U" title="Animu">Animu</a></h3>
+                        
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-3-widget-new-grid">
+                                            <span class="price">₱123.00</span>                                    </span>
+                        
+        </div>
+
+                                                <div class="actions">
+                                                            <button type="button"
+                                        title="Add to Cart"
+                                        class="button btn-cart"
+                                        onclick="customFormSubmit(
+                                                'http://127.0.0.1/magento-mirror-magento-1.9/index.php/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMS9tYWdlbnRvLW1pcnJvci1tYWdlbnRvLTEuOS9pbmRleC5waHAv/product/3/?___SID=U',
+                                                '{&quot;form_key&quot;:&quot;BJDoyn5SCd9u4wVJ&quot;}',
+                                                'post')">
+                                    <span><span>Add to Cart</span></span>
+                                </button>
+                                                       
+                        
+                    </div>
+                            </div>
+                            </div>
+                       
+                 
+                      <div class="col-md-4">
+                    <a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/genshin.html?___SID=U" title="Genshin" class="product-image">
+                        <img src="http://127.0.0.1/magento-mirror-magento-1.9/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg" alt="Genshin" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-name"><a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/genshin.html?___SID=U" title="Genshin">Genshin</a></h3>
+                        
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-2-widget-new-grid">
+                                            <span class="price">₱255.00</span>                                    </span>
+                        
+        </div>
+
+                                                <div class="actions">
+                                                            <button type="button"
+                                        title="Add to Cart"
+                                        class="button btn-cart"
+                                        onclick="customFormSubmit(
+                                                'http://127.0.0.1/magento-mirror-magento-1.9/index.php/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMS9tYWdlbnRvLW1pcnJvci1tYWdlbnRvLTEuOS9pbmRleC5waHAv/product/2/?___SID=U',
+                                                '{&quot;form_key&quot;:&quot;BJDoyn5SCd9u4wVJ&quot;}',
+                                                'post')">
+                                    <span><span>Add to Cart</span></span>
+                                </button>
+                                                       
+                        
+                    </div>
+                            </div>
+                            </div>
+                       
+                 
+                      <div class="col-md-4">
+                    <a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/minecraft-windows-10.html?___SID=U" title="Minecraft WIndows 10" class="product-image">
+                        <img src="http://127.0.0.1/magento-mirror-magento-1.9/media/catalog/product/cache/1/small_image/210x/9df78eab33525d08d6e5fb8d27136e95/m/i/minecraft-xbox-one_jpg.jpg" alt="Minecraft WIndows 10" />
+                    </a>
+                    <div class="product-info">
+                        <h3 class="product-name"><a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/minecraft-windows-10.html?___SID=U" title="Minecraft WIndows 10">Minecraft WIndows 10</a></h3>
+                        
+
+                        
+    <div class="price-box">
+                                                                <span class="regular-price" id="product-price-1-widget-new-grid">
+                                            <span class="price">₱250.00</span>                                    </span>
+                        
+        </div>
+
+                                                <div class="actions">
+                                                            <button type="button"
+                                        title="Add to Cart"
+                                        class="button btn-cart"
+                                        onclick="customFormSubmit(
+                                                'http://127.0.0.1/magento-mirror-magento-1.9/index.php/checkout/cart/add/uenc/aHR0cDovLzEyNy4wLjAuMS9tYWdlbnRvLW1pcnJvci1tYWdlbnRvLTEuOS9pbmRleC5waHAv/product/1/?___SID=U',
+                                                '{&quot;form_key&quot;:&quot;BJDoyn5SCd9u4wVJ&quot;}',
+                                                'post')">
+                                    <span><span>Add to Cart</span></span>
+                                </button>
+                                                       
+                        
+                    </div>
+                            </div>
+                            </div>
+            </div>
+        </ul>
+    </div>
+</div>
