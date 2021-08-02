@@ -27,3 +27,47 @@
 .products-grid .product-info{
   padding-bottom: 0px !important;
 }
+.section-featured, .section-games, .section-category{
+  padding: 2vw 0px;
+}
+.section-games h2{
+font-size:50px;
+  margin:auto;
+  }
+.games-column, .games-row{
+display: flex;
+flex-wrap: wrap;
+text-align:center;
+}
+.section-featured img, .games-column img, .category-column img, .category-products img, .games-row img{
+  width:100%;
+  height: 100%;
+}
+.games-column a{
+height: 100%;
+}
+.flex-colm{
+display: flex;
+flex-direction: column;
+}
+.games-column .flex-colm, .games-row .flex-colm{
+  padding: 15px;
+}
+
+.category-column{
+  display: flex;
+}
+.category-column col{
+  margin: 10px;
+  }
+  
+  .category-column span{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  .pager{
+    float: unset !important;
+  }
+

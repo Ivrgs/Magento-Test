@@ -43,12 +43,11 @@
 <div class="category-products">
   
     <?php $_collectionSize = $_productCollection->count() ?>
-
+<script>console.log('Category page list')</script>
     <div class="row">
         <?php $i=0; foreach ($_productCollection as $_product): ?>
-            <?php if ($i++ == 3) break; ?>
 
-       <div class="col-md-4">
+       <div class="col-md-3">
                 <a href="<?php echo $_product->getProductUrl() ?>" title="<?php echo $this->stripTags($this->getImageLabel($_product, 'small_image'), null, true) ?>" class="product-image">
                     
                     <img id="product-collection-image-<?php echo $_product->getId(); ?>"

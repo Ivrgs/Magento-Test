@@ -1,69 +1,23 @@
-<div class="widget widget-static-block"><div><div class="category-products">
+<div class="widget widget-static-block"><p><div class="category-products">
   
     
     <div class="row">
                     
        <div class="col-md-4">
-                <a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/minecraft-windows-10.html?___SID=U" title="Minecraft WIndows 10" class="product-image">
+                <a href="http://127.0.0.1/magento-mirror-magento-1.9/steam.html?___SID=U" title="Steam" class="product-image">
                     
-                    <img id="product-collection-image-1"
-                         src="http://127.0.0.1/magento-mirror-magento-1.9/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/m/i/minecraft-xbox-one_jpg.jpg"
-                         alt="Minecraft WIndows 10" />
+                    <img id="product-collection-image-5"
+                         src="http://127.0.0.1/magento-mirror-magento-1.9/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/s/t/steam.jpg"
+                         alt="Steam" />
                 </a>
                 <div class="product-info">
-                    <h2 class="product-name"><a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/minecraft-windows-10.html?___SID=U" title="Minecraft WIndows 10">Minecraft WIndows 10</a></h2>
+                    <h2 class="product-name"><a href="http://127.0.0.1/magento-mirror-magento-1.9/steam.html?___SID=U" title="Steam">Steam</a></h2>
                                         
 
                         
     <div class="price-box">
-                                                                <span class="regular-price" id="product-price-1">
-                                            <span class="price">₱250.00</span>                                    </span>
-                        
-        </div>
-
-  
-                </div>
-                </div>
-  
-                    
-       <div class="col-md-4">
-                <a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/genshin.html?___SID=U" title="Genshin" class="product-image">
-                    
-                    <img id="product-collection-image-2"
-                         src="http://127.0.0.1/magento-mirror-magento-1.9/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg"
-                         alt="Genshin" />
-                </a>
-                <div class="product-info">
-                    <h2 class="product-name"><a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/genshin.html?___SID=U" title="Genshin">Genshin</a></h2>
-                                        
-
-                        
-    <div class="price-box">
-                                                                <span class="regular-price" id="product-price-2">
-                                            <span class="price">₱255.00</span>                                    </span>
-                        
-        </div>
-
-  
-                </div>
-                </div>
-  
-                    
-       <div class="col-md-4">
-                <a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/sekiro.html?___SID=U" title="Sekiro" class="product-image">
-                    
-                    <img id="product-collection-image-4"
-                         src="http://127.0.0.1/magento-mirror-magento-1.9/media/catalog/product/cache/1/small_image/9df78eab33525d08d6e5fb8d27136e95/images/catalog/product/placeholder/small_image.jpg"
-                         alt="Sekiro" />
-                </a>
-                <div class="product-info">
-                    <h2 class="product-name"><a href="http://127.0.0.1/magento-mirror-magento-1.9/index.php/sekiro.html?___SID=U" title="Sekiro">Sekiro</a></h2>
-                                        
-
-                        
-    <div class="price-box">
-                                                                <span class="regular-price" id="product-price-4">
-                                            <span class="price">₱123.00</span>                                    </span>
+                                                                <span class="regular-price" id="product-price-5">
+                                            <span class="price">₱234.00</span>                                    </span>
                         
         </div>
 
@@ -75,4 +29,4 @@
     
    
 </div>
-</div></div>
+</p></div>
