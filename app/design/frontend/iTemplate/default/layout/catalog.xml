@@ -224,13 +224,9 @@ Product view
                 </block>
 
                 <block type="catalog/product_view_additional" name="product.info.additional" as="product_additional_data" />
-                <block type="catalog/product_view_description" name="product.description" as="description" template="catalog/product/view/description.phtml">
-                    <action method="addToParentGroup"><group>detailed_info</group></action>
-                    <action method="setTitle" translate="value"><value>Description</value></action>
-                </block>
                 <block type="catalog/product_view_attributes" name="product.attributes" as="additional" template="catalog/product/view/attributes.phtml">
                     <action method="addToParentGroup"><group>detailed_info</group></action>
-                    <action method="setTitle" translate="value"><value>Additional Information</value></action>
+                    <action method="setTitle" translate="value"><value>System Requirements</value></action>
                 </block>
                 <block type="catalog/product_list_related" name="catalog.product.related" as="related_products" template="catalog/product/list/related.phtml" />
 
@@ -258,8 +254,8 @@ Product view
                     <action method="insert"><block>product.tierprices</block></action>
                     <block type="catalog/product_view" name="product.clone_prices" as="prices" template="catalog/product/view/price_clone.phtml"/>
                     <action method="append"><block>product.info.addtocart</block></action>
-                    <action method="append"><block>product.info.addto</block></action>
-                    <action method="append"><block>product.info.sharing</block></action>
+                    <!-- <action method="append"><block>product.info.addto</block></action> -->
+                    <!-- <action method="append"><block>product.info.sharing</block></action> -->
                 </block>
 
                 <block type="core/template_facade" name="product.info.container1" as="container1">

@@ -1,0 +1,11 @@
+a:5:{i:0;s:28:"Invalid header line detected";i:1;s:1384:"#0 C:\xampp\htdocs\magento-mirror-magento-1.9\lib\Zend\Http\Response.php(696): Zend_Http_Response::extractHeaders('HTTP/2 200 \r\nda...')
+#1 C:\xampp\htdocs\magento-mirror-magento-1.9\lib\Zend\Http\Client.php(1110): Zend_Http_Response::fromString('HTTP/2 200 \r\nda...')
+#2 C:\xampp\htdocs\magento-mirror-magento-1.9\lib\Varien\Http\Client.php(61): Zend_Http_Client->request('GET')
+#3 C:\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Adminhtml\controllers\DashboardController.php(100): Varien_Http_Client->request('GET')
+#4 C:\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Controller\Varien\Action.php(418): Mage_Adminhtml_DashboardController->tunnelAction()
+#5 C:\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Controller\Varien\Router\Standard.php(254): Mage_Core_Controller_Varien_Action->dispatch('tunnel')
+#6 C:\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Controller\Varien\Front.php(172): Mage_Core_Controller_Varien_Router_Standard->match(Object(Mage_Core_Controller_Request_Http))
+#7 C:\xampp\htdocs\magento-mirror-magento-1.9\app\code\core\Mage\Core\Model\App.php(381): Mage_Core_Controller_Varien_Front->dispatch()
+#8 C:\xampp\htdocs\magento-mirror-magento-1.9\app\Mage.php(686): Mage_Core_Model_App->run(Array)
+#9 C:\xampp\htdocs\magento-mirror-magento-1.9\index.php(83): Mage::run('', 'store')
+#10 {main}";s:3:"url";s:633:"/magento-mirror-magento-1.9/index.php/admin/dashboard/tunnel/key/31853fcdf385c70e1d5394ad21a47ae0/?ga=eyJjaHQiOiJsYyIsImNoZiI6ImJnLHMsZjRmNGY0fGMsbGcsOTAsZmZmZmZmLDAuMSxlZGVkZWQsMCIsImNobSI6IkIsZjRkNGIyLDAsMCwwIiwiY2hjbyI6ImRiNDgxNCIsImNoeHMiOiIwLDAsMTF8MSwwLDExIiwiY2htYSI6IjE1LDE1LDE1LDE1IiwiY2hkIjoiYTowLDAsMCwwLDAsMCwwLDAsMSwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCwwLDAsMCIsImNoeHQiOiJ4LHkiLCJjaHhsIjoiMDp8fHwyOjAwIFBNfHx8NTowMCBQTXx8fDg6MDAgUE18fHwxMTowMCBQTXx8fDI6MDAgQU18fHw1OjAwIEFNfHx8ODowMCBBTXx8fDExOjAwIEFNfDE6fDB8MXwyIiwiY2hzIjoiNTg3eDMwMCIsImNoZyI6IjQuMzQ3ODI2MDg2OTU2NSw1MCwxLDAifQ%253D%253D&h=5e189fe8b8de8d9ae8b5e209801e4047";s:11:"script_name";s:37:"/magento-mirror-magento-1.9/index.php";s:4:"skin";s:5:"admin";}

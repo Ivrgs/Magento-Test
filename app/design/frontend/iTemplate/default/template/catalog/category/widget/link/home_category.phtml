@@ -36,8 +36,10 @@ $categories = $category->getCollection()
 ?>
 
     <?php foreach ($categories as $category): ?>
-        <div class="col flex-colm">
-            <a href="<?php echo $category->getUrl() ?>"><img src="<?php echo $category->getImageUrl(); ?>" />
-                <span><?php echo $category->getName() ?></span></a>
-    </div>
+        <div class="col-md flex-colm category-colm">
+            <a href="<?php echo $category->getUrl() ?>">
+                <img src="<?php echo $category->getImageUrl(); ?>" />
+                <span><?php echo $category->getName() ?></span>
+            </a>
+        </div>
     <?php endforeach; ?>

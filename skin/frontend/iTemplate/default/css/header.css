@@ -1,0 +1,18 @@
+.navbar-nav.mr-auto{
+    flex-wrap: inherit;
+    flex-direction: row;
+  
+}
+
+.navbar-nav.mr-auto li {
+    padding: 0px 10px;
+    font-size: 20px;
+}
+.navi{
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-item.dropdown{
+    display: block !important;
+}

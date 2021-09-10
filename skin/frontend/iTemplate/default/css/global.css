@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
+
+body, h1, h2, h3, h4, h5, h6, p, a, span, button{
+  font-family: 'Noto Sans JP', sans-serif !important;
+}
+a{
+  text-decoration: none !important;
+  color: #BBE1FA !important;
+}
+
+
+.text-dark{
+    color:#1B262C;
+}
+
+
+.no-padding-colm{
+  padding: 0px !important;
+}
+
+
+.global-button-container{
+width: 80%;
+margin: auto;
+padding: 1vw;
+display: block;
+}
+
+.fullwidth-image{
+    width: 100%;
+    }
+    .fullwidth-button{
+    
+    }
+
+    body, p, a, span, li{
+      font-size: 18px !important;
+    }
+    h1{
+      font-weight: 700 !important;
+    }
+    h2{
+      font-weight: 600 !important;
+    }
+    h3{
+
+    }
+    h4{
+
+    }
+    .toggle-tabs li{
+      width:50%;
+      }
+      
+      .toggle-tabs .current span{
+      width: 100%;
+      }
+
+
+    .product-actions{
+      display: flex;
+      align-items: center;
+    }
+    .product-actions button{
+width: 100%;
+    }
+    .product-info{
+  text-align: center;
+    }
+    .product-image{
+height: 100%;
+    }
+
+    .product-actions   .special-price, .product-actions   .old-price{
+        display: flex;
+        align-items: center;
+        margin: 0px;
+    }
+    .product-actions  .price-box, .product-actions .out-of-stock{
+        padding: 10px 0px;
+        margin: 0px;
+    }
+
+    .zoomContainer{
+display: none;
+    }
