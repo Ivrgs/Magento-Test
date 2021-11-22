@@ -1,0 +1,34 @@
+<?php
+$_helper = $this->helper('catalog/output');
+$_product = $this->getProduct();
+$SetId =Mage::getSingleton('catalog/config')->getAttributeSetId('catalog_product', 'Default');
+
+       $groups = Mage::getModel('eav/entity_attribute_group')
+           ->getResourceCollection()
+           ->setAttributeSetFilter($SetId)
+           ->setSortOrder()
+           ->load();
+       
+       foreach ($groups as $group) {   if($group->getAttributeGroupName() == 'Recomended Requirements'){ 
+
+        $attributes = Mage::getResourceModel('catalog/product_attribute_collection')
+        ->setAttributeGroupFilter($group->getId())
+        ->addVisibleFilter()
+        ->checkConfigurableProducts()
+        ->load();
+
+        if ($attributes->getSize() > 0) {
+            foreach ($attributes->getItems() as $attribute) {
+                /* @var $child Mage_Eav_Model_Entity_Attribute */
+                $attributeCodes[] = array('code' => $attribute->getAttributeCode(), 'type' => $attribute->getBackendType(), 'label' => $attribute->getFrontendLabel());  
+                //Mage::Log($attribute->debug());
+
+            }
+            foreach ($attributeCodes as $attributeCode) {
+                $attrValue =  $_product->getData($attributeCode['code']);
+                if(isset($attrValue)){
+                    echo '<strong>'. $attributeCode['label'] .': </strong>'. $attrValue;
+                } // if
+            } // foreach
+          }}} ?>
+          Hello World

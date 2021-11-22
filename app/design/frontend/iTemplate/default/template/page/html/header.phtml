@@ -28,8 +28,8 @@
  */
 ?>
 <script> console.log("Hello World") </script>
-<div class="header-language-background">
-    <div class="header-language-container">
+<div class="main-header">
+    <div class="top-header">
         <div class="store-language-container">
             <?php echo $this->getChildHtml('store_language') ?>
         </div>
@@ -38,46 +38,44 @@
 
         <p class="welcome-msg"><?php echo $this->getChildHtml('welcome') ?> <?php echo $this->getChildHtml('accountLinks') ?></p>
     </div>
-</div>
 
-<header id="header" class="page-header">
-    <div class="page-header-container">
-        <div class="row">
-            <div class="col-md-4">
-                <a class="logo" href="<?php echo $this->getUrl('') ?>">
-                    <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
-                    <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
-                </a>
+    <header id="header" class="page-header">
+            <div class="row">
+                <div class="col-md-4">
+                    <a class="logo" href="<?php echo $this->getUrl('') ?>">
+                        <img src="<?php echo $this->getLogoSrc() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="large" />
+                        <img src="<?php echo $this->getLogoSrcSmall() ?>" alt="<?php echo $this->getLogoAlt() ?>" class="small" />
+                    </a>
+                </div>
+                <div class="col-md-4 navi">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= $this->getUrl('') ?>">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= $this->getUrl('')."about" ?>">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= $this->getUrl('')."games" ?>">Games</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="<?= $this->getUrl('')."contacts" ?>">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
+                            <div id="header-account" class="skip-content dropdown-menu">
+                                <?php echo $this->getChildHtml('topLinks') ?>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="col-md-4 navi">
+                    <?php echo $this->getChildHtml('topSearch') ?>
+                    <?php echo $this->getChildHtml('minicart_head'); ?>                
+                </div>
             </div>
-            <div class="col-md-4 navi">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= $this->getUrl('') ?>">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= $this->getUrl('')."about" ?>">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= $this->getUrl('')."games" ?>">Games</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="<?= $this->getUrl('')."contacts" ?>">Contact</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Account</a>
-                        <div id="header-account" class="skip-content dropdown-menu">
-                            <?php echo $this->getChildHtml('topLinks') ?>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-        
-            <div class="col-md-4 navi">
-                <?php echo $this->getChildHtml('topSearch') ?>
-                <?php echo $this->getChildHtml('minicart_head'); ?>                
-            </div>
-        </div>
-    </div>
-</header>
+    </header>
+</div>
 
 <?php echo $this->getChildHtml('topContainer'); ?>

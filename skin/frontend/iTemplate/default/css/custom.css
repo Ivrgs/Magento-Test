@@ -36,8 +36,12 @@ flex-wrap: wrap;
 text-align:center;
 width: 100%;
 }
-.section-featured img, .games-column img, .category-column img, .category-products img, .games-row img{
+.section-featured img, .games-column img, .category-products img, .games-row img{
   width:100%;
+  height: 100%;
+}
+.category-column img{
+  width: 100%;
   height: 100%;
 }
 .games-column a{
@@ -83,10 +87,44 @@ width: 100% !important;
     max-width: 100% !important;
     width: 100% !important;
   }
-  
+.section-product{
+    padding: 0px 0px 5% 0px;
+}
   .extra-info{
 overflow: scroll;
 overflow-x: hidden;
 overflow-y: auto;
 height: 250px;
+color: #dedede;
   }
+
+  .category-products{
+display: flex;
+flex-direction: row;
+padding: 10% 0px;
+  }
+  .product-info{
+    border: 1px solid;
+  }
+
+
+
+
+  /* .section-notice{
+    padding: 10%;
+  } */
+  .row-notice{
+    padding-top: 10% ;
+  }
+  .row-notice h3{
+    text-transform: uppercase;
+    text-align: center;
+  }
+  .row-notice p {
+    color: #dedede;
+    font-style: italic;
+    text-align: center;
+    font-size: 18px;
+  }
+
+  

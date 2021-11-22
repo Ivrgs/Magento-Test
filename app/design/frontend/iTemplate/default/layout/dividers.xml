@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+
+<layout version="0.1.0">
+<default>
+    <reference name="footer-divider">
+        <block type="core/template"
+            name="footer-divider"
+            template="dividers/footer-dividers.phtml" />
+    </reference>
+
+    <reference name="footer-divider">
+            <action method="setTemplate">
+                <template>dividers/footer-dividers.phtml</template>
+            </action>
+        </reference>
+
+</default>
+</layout>

@@ -1,0 +1,196 @@
+@import 'variables';
+
+.col-md-12, .col-md-6{
+padding:0px;
+}
+
+h1,h2,h3,h4,h5,h6,span,p,
+label{
+    color: $primary-text;
+    margin: 0px;
+}
+span, a, p, label{
+    font-size: $paragraph;
+}
+a{
+    color: $primary-link;
+    text-decoration: none !important;
+    &:hover{
+        color: $primary-text;
+    }
+}
+
+.main-header{
+    .top-header{
+        background-color: $accent-color;
+        padding:20px 0px;
+    }
+    .header{
+        background-color: $primary-color;    
+        .logo {
+            @extend %stretch-content;
+            img{
+                width: 50%;
+            }
+        }
+        
+        .navigator{
+            display: flex;
+            align-items: center;
+            ul{
+                flex-direction: row;
+                @extend %stretch-content;
+            }
+            .nav-item.dropdown{
+                display: flex !important;
+                .dropdown-menu{
+                    padding: 0%;
+                    ul{
+                        background-color: $accent-color;
+                        list-style: none;
+                        padding: 10px;
+                        flex-direction: column;
+                        li{
+                            padding: 10px;
+                        }
+                    }
+                }
+            }
+            
+        }
+        .search{
+            @extend %stretch-content;
+        }
+       
+    }
+    
+}
+
+.homepage{
+   
+    img{
+        width: $one-column;
+    }
+    .main-divider{
+        width: 70%;
+        border-color: $highlight-color;
+    }
+    .section-hero{
+        @extend %section-hero-gradient;
+        .inner-container{
+            display: flex;
+            padding: 2% 5% 5%;
+        }
+        .slider{
+            margin: auto;
+        }
+        .vouchers img{
+            padding: 10px;
+        }
+        .section-featured{
+            padding: 5%;
+            width: $one-column;
+            margin: auto;
+            align-items: center;
+
+            .inner-div {
+                display: flex;
+                align-items: center;
+            }
+
+            .flex-colm{
+                height: 100%;
+                @extend %center-content;
+                flex-direction: column;
+                img{
+                    height: 480px;
+                }
+            }
+        }
+    }
+    .section-games{
+        padding: 5%;
+
+        .games-column{
+            display: flex;
+        }
+    }
+    .section-category {
+        padding: 5%;
+        width: $one-column;
+        margin: auto;
+        align-items: center;
+
+        .category-column{
+            display: flex;
+        }
+    }
+    .section-best-selling{
+        background-color: $primary-color;
+        padding: 5%;
+        display: flex;
+        .inner-div{
+            @extend %center-content;
+            flex-direction: row;
+        }
+        .main-divider{
+            background-color: $primary-color;
+        }
+    } 
+}
+
+.main-footer{
+    background-color: $primary-color;
+    .widget{
+       margin: auto;
+       max-width: $boxed;
+        display: flex;
+
+        .link-column{
+            @extend %stretch-content;
+        }
+        .social-links{
+            @extend %left-content;
+            img{
+                width: $five-column;
+            }
+        }
+        .row{
+            width: $three-column;
+            padding: 2%;
+            margin: 0px;
+        }
+        img{
+            width: $one-column;
+        }
+        
+        .logo{
+            align-content: center;
+            p{
+                text-align: center;
+                padding: $TB-padding;
+            }
+        }
+        .newsletter{
+            flex-direction: column;
+            .row{
+                width: $one-column;
+            }
+            strong{
+                font-size: $paragraph-heading;
+            }
+            .address{
+                padding: $paragraph-padding;
+            }
+        }
+    }
+    &.copyright{
+        @extend %center-content;
+        color: $primary-text;
+        background-color: $accent-color;
+        p{
+            padding: $TB-padding;
+        }
+    }
+    
+}     
