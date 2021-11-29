@@ -1,9 +1,13 @@
 @import 'variables';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap');
 
 .col-md-12, .col-md-6{
 padding:0px;
 }
-
+h1,h2,h3,h4,h5,h6,span,p,
+a, span, label{
+    font-family: 'Noto Sans JP', sans-serif !important;
+}
 h1,h2,h3,h4,h5,h6,span,p,
 label{
     color: $primary-text;
@@ -95,7 +99,10 @@ a{
 
             .inner-div {
                 display: flex;
-                align-items: center;
+                a{
+                    overflow: hidden;
+                    white-space: nowrap;
+                }
             }
 
             .flex-colm{
@@ -105,6 +112,30 @@ a{
                 img{
                     height: 480px;
                 }
+            }
+        }
+    }
+    .section-service{
+        background-image: url("../images/circuit.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        .inner-service{
+            @extend %center-content;
+            background-color: $white;
+            padding: 5%;
+            margin: 5% auto;
+            width: 80%;
+            border-radius: 30px;
+            img{
+                width: 35%;
+            }
+            .col-md-3{
+                flex-direction: column;
+                @extend %center-content;
+                align-items: center;
+            }
+            .cta-meta{
+                text-align: center;
             }
         }
     }
@@ -123,6 +154,14 @@ a{
 
         .category-column{
             display: flex;
+
+            a{
+                @extend %center-content;
+                align-items: center;
+            }
+            span{
+                position: absolute;
+            }
         }
     }
     .section-best-selling{
